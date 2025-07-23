@@ -3,10 +3,10 @@ import numpy as np
 import pickle
 
 # Load models
-logistic_model = pickle.load(open("L_model", "rb"))
-svm_model = pickle.load(open("svm_model", "rb"))
-dt_model = pickle.load(open("DT_model", "rb"))
-rf_model = pickle.load(open("RF_model", "rb"))
+logistic_model = pickle.load(open("L_model.pkl", "rb"))
+svm_model = pickle.load(open("svm_model.pkl", "rb"))
+dt_model = pickle.load(open("DT_model.pkl", "rb"))
+rf_model = pickle.load(open("RF_model.pkl", "rb"))
 
 # Page setup
 st.set_page_config(page_title="Heart Disease Predictor", page_icon="🫀", layout="centered")
